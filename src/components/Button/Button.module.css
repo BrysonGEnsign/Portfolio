@@ -1,0 +1,64 @@
+/* basic */
+.button {
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+  }
+  
+  /* colors */
+  .buttonBlack {
+    color: #fafafa; /* text-zinc-50 */
+    background-color: #09090b; /* bg-zinc-950 */
+    border: 2px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .buttonBlack:hover {
+    background-color: #27272a; /* hover:bg-zinc-800 */
+  }
+  
+  .buttonBlack:active {
+    color: #d4d4d8; /* active:text-zinc-300 */
+  }
+  
+  .buttonBlack:focus-visible {
+    outline: 2px solid #09090b; /* ring-zinc-950 */
+    outline-offset: 2px; /* ring-offset-2 */
+    box-shadow: 0 0 0 2px #fafafa; /* ring-offset-zinc-50 */
+  }
+  
+  .buttonBlack.buttonDisabled {
+    background-color: #737373; /* bg-zinc-500 */
+    color: #525252; /* text-zinc-600 */
+    cursor: default;
+  }
+  
+  /* white button */
+  .buttonWhite {
+    color: #09090b; /* text-zinc-950 */
+    background-color: #fafafa; /* bg-zinc-50 */
+    border: 2px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .buttonWhite:hover {
+    background-color: #e4e4e7; /* hover:bg-zinc-200 */
+  }
+  
+  .buttonWhite:active {
+    color: #3f3f46; /* active:text-zinc-700 */
+  }
+  
+  .buttonWhite:focus-visible {
+    outline: 2px solid #fafafa; /* ring-zinc-50 */
+    outline-offset: 2px; /* ring-offset-2 */
+    box-shadow: 0 0 0 2px #09090b; /* ring-offset-zinc-950 */
+  }
+  
+  .buttonWhite.buttonDisabled {
+    background-color: #d4d4d8; /* bg-zinc-300 */
+    color: #a1a1aa; /* text-zinc-400 */
+    cursor: default;
+  }
+  
