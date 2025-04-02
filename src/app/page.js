@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "/workspaces/Portfolio/src/components/Navbar/Navbar.jsx";
-import ThemeSwitcher from "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.css";
+import ThemeSwitcher from "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.jsx";
 import SignupWidget from "/workspaces/Portfolio/src/components/SidebarWidget/SignupWidget/SignupWidget.jsx";
 import WorkWidget from "/workspaces/Portfolio/src/components/SidebarWidget/WorkWidget/WorkWidget.jsx";
 import SkillsWidget from "/workspaces/Portfolio/src/components/SidebarWidget/SkillsWidget/SkillsWidget.jsx";

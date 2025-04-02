@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import "/workspaces/cs220-portfolio-spring-2025-team-1/src/components/ThemeSwitcher/ThemeSwitcher.css";
+import "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.css";
 
 const ThemeSwitcher = ({ darkClassName }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
