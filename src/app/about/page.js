@@ -27,14 +27,14 @@ export default function About() {
         {/* Left: Text */}
         <div className="text-left max-w-xl lg:mr-12">
           <h1 className="text-4xl font-bold mb-6 leading-tight">
-            I’m Bryson. I live in Utah, <br /> where I turn ideas into code. 
+            I am Bryson. I live in Utah, <br /> where I turn ideas into code. 
           </h1>
 
           <p className="text-md text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
             I am a firm beleiver of doing. When you have an idea even if it is something just for fun. I find joy and accomplishment in trying to figure out how I would implement or create my idea. Most of my ideas are how I would create or implement things into games. such as how would I create an inventory system, or a gacha system and the list goes on. Basically I think that when we attempt to implement and create we learn a lot more then we could just reading in a book. 
           </p>
           <p className="text-md text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-            Don't get me wrong though I love reading. Some of my favorites currently are, The Book of Mormon, Anything Brandon Sanderson and I do enjoy reading a good webnovel.  
+            Do not get me wrong though I love reading. Some of my favorites currently are, The Book of Mormon, Anything Brandon Sanderson and I do enjoy reading a good webnovel.  
           </p>
          
 

@@ -44,10 +44,10 @@ export default function Projects() {
     {/* Title and description */}
     <div className="title-container">
       <h1 className="text-4xl font-bold mb-6 leading-tight">
-        Things I'm making/made.
+        Things I am making/made.
       </h1>
       <p style={{ marginBottom: "40px" }}>
-        Here is some of the projects I'm currently working on and have worked on. 
+        Here is some of the projects I am currently working on and have worked on. 
       </p>
     </div>
 
