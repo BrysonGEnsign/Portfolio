@@ -12,7 +12,7 @@ export default function Intro() {
 
       {/* Longer intro content */}
       <p className="text-gray-600 dark:text-gray-300 max-w-2xl mb-6 leading-relaxed">
-       Hello! I'm Bryson. I enjoy creation It is amazing the things we can create with the tools avalible to us. I beleive that as we strive to create things we are given inspration. The sparks in the dark that just illuminate enough for you to be inspired, or to keep working because you know you can create amazing things. 
+       Hello! I am Bryson. I enjoy creation It is amazing the things we can create with the tools avalible to us. I beleive that as we strive to create things we are given inspration. The sparks in the dark that just illuminate enough for you to be inspired, or to keep working because you know you can create amazing things. 
       </p>
 
       {/* Social icons */}
