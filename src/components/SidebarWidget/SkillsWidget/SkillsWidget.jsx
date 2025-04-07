@@ -1,4 +1,4 @@
-import 'src/components/SidebarWidget/SkillsWidget/SkillsWidget.css';
+import '@/components/SidebarWidget/SkillsWidget/SkillsWidget.css';
 import PropTypes from 'prop-types';
 
 /* TODO:

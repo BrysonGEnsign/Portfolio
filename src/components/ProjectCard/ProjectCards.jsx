@@ -1,4 +1,4 @@
-import "src/components/ProjectCard/ProjectCard.css";
+import "@/components/ProjectCard/ProjectCard.css";
 import PropTypes from "prop-types";
 
 const ProjectCard = ({ logo, name, content, link }) => {

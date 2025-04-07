@@ -8,7 +8,7 @@ import SkillsWidget from "@/components/SidebarWidget/SkillsWidget/SkillsWidget";
 import Navbar from "@/components/Navbar/Navbar";
 import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
 import Footer from "@/components/Footer/Footer";
-import './globals.css';
+import '@/app/globals.css';
 
 export default function Home() {
   const navOptions = [

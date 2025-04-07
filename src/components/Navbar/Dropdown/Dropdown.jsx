@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
-import "src/components/Navbar/Dropdown/Drowndown.css";
+import "@/components/Navbar/Dropdown/Drowndown.css";
 
 export default function Dropdown({ options }) {
   const [isOpen, setIsOpen] = useState(false);

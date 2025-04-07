@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import Dropdown from "src/components/Navbar/Dropdown/Dropdown.jsx";
-import "src/components/Navbar/Navbar.css";
+import Dropdown from "@/components/Navbar/Dropdown/Dropdown.jsx";
+import "@/components/Navbar/Navbar.css";
 
 const Navbar = ({ options }) => {
   const [isMobile, setIsMobile] = useState(false);

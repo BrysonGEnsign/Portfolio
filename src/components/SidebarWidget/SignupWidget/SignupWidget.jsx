@@ -1,6 +1,6 @@
 "use client"; // Ensures the component runs on the client side
 
-import 'src/components/SidebarWidget/SignupWidget/SignupWidget.css';
+import '@/components/SidebarWidget/SignupWidget/SignupWidget.css';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 

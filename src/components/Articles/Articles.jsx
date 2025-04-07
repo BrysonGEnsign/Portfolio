@@ -1,5 +1,5 @@
-import ArticleCard from "./ArticleCard.jsx";
-import "./ArticleCard.css";
+import ArticleCard from "@/components/Articles/ArticleCard.jsx";
+import "@/components/Articles/Articles.jsx";
 
 export default function Articles() {
   const articles = [
