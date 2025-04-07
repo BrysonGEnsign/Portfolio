@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Navbar from "/workspaces/Portfolio/src/components/Navbar/Navbar.jsx";
-import ThemeSwitcher from "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.jsx";
-import SignupWidget from "/workspaces/Portfolio/src/components/SidebarWidget/SignupWidget/SignupWidget.jsx";
-import WorkWidget from "/workspaces/Portfolio/src/components/SidebarWidget/WorkWidget/WorkWidget.jsx";
-import SkillsWidget from "/workspaces/Portfolio/src/components/SidebarWidget/SkillsWidget/SkillsWidget.jsx";
-import Intro from "/workspaces/Portfolio/src/components/Intro/Intro.jsx";
-import Footer from "/workspaces/Portfolio/src/components/Footer/Footer.jsx";
-import Articles from "/workspaces/Portfolio/src/components/Articles/Articles.jsx";
+import ProjectCard from "@/components/ProjectCard/ProjectCards";
+import Intro from "@/components/Intro/Intro";
+import Articles from "@/components/Articles/Articles";
+import SignupWidget from "@/components/SidebarWidget/SignupWidget/SignupWidget";
+import WorkWidget from "@/components/SidebarWidget/WorkWidget/WorkWidget";
+import SkillsWidget from "@/components/SidebarWidget/SkillsWidget/SkillsWidget";
+import Navbar from "@/components/Navbar/Navbar";
+import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
+import Footer from "@/components/Footer/Footer";
 import './globals.css';
 
 export default function Home() {

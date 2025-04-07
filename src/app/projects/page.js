@@ -1,7 +1,7 @@
-import Navbar from "/workspaces/Portfolio/src/components/Navbar/Navbar.jsx";
-import ThemeSwitcher from "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.jsx";
-import Footer from "/workspaces/Portfolio/src/components/Footer/Footer.jsx";
-import ProjectCard from "/workspaces/Portfolio/src/components/ProjectCard/ProjectCards.jsx";
+import Navbar from "@/components/Navbar/Navbar";
+import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
+import Footer from "@/components/Footer/Footer";
+import ProjectCard from "@/components/ProjectCard/ProjectCards";
 import "./page.css";
 
 export const metadata = {

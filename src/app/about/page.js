@@ -1,6 +1,6 @@
-import Navbar from "/workspaces/Portfolio/src/components/Navbar/Navbar.jsx";
-import ThemeSwitcher from "/workspaces/Portfolio/src/components/ThemeSwitcher/ThemeSwitcher.jsx";
-import Footer from "/workspaces/Portfolio/src/components/Footer/Footer.jsx";
+import Navbar from "@/components/Navbar/Navbar";
+import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "Portfolio - About",
