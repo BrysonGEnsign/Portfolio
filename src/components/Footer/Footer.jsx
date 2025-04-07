@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Footer.css"; // Assuming you will add relevant CSS for the footer here
+import "src/components/Footer/Footer.css"; // Assuming you will add relevant CSS for the footer here
 
 const Footer = ({ options }) => {
   return (

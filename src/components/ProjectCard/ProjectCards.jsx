@@ -1,4 +1,4 @@
-import "/workspaces/Portfolio/src/components/ProjectCard/ProjectCard.css";
+import "src/components/ProjectCard/ProjectCard.css";
 import PropTypes from "prop-types";
 
 const ProjectCard = ({ logo, name, content, link }) => {
