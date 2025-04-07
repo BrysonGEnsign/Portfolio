@@ -1,4 +1,4 @@
-"use client"; // Ensures the component runs on the client side
+"use client";
 
 import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
@@ -8,27 +8,32 @@ const ThemeSwitcher = ({ darkClassName }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.matchMedia) {
-      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+    if (typeof window !== "undefined") {
+      const storedTheme = localStorage.getItem("theme");
 
-      setIsDarkMode(prefersDark.matches);
-      document.documentElement.classList.toggle(darkClassName, prefersDark.matches);
-
-      const handleChange = (e) => {
-        setIsDarkMode(e.matches);
-        document.documentElement.classList.toggle(darkClassName, e.matches);
-      };
-
-      prefersDark.addEventListener("change", handleChange);
-
-      return () => prefersDark.removeEventListener("change", handleChange);
+      if (storedTheme === "dark") {
+        setIsDarkMode(true);
+        document.documentElement.classList.add(darkClassName);
+      } else if (storedTheme === "light") {
+        setIsDarkMode(false);
+        document.documentElement.classList.remove(darkClassName);
+      } else {
+        // fallback to system preference
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+        setIsDarkMode(prefersDark.matches);
+        document.documentElement.classList.toggle(darkClassName, prefersDark.matches);
+      }
     }
   }, [darkClassName]);
 
   const toggleTheme = () => {
     setIsDarkMode((prevMode) => {
       const newMode = !prevMode;
+      const theme = newMode ? "dark" : "light";
+
       document.documentElement.classList.toggle(darkClassName, newMode);
+      localStorage.setItem("theme", theme);
+
       return newMode;
     });
   };

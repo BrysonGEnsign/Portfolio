@@ -4,26 +4,18 @@ import "./ArticleCard.css";
 export default function Articles() {
   const articles = [
     {
-      date: "Mar 28, 2025",
-      title: "Lorem Ipsum Dolor Sit Amet",
+      date: "April 7, 2025",
+      title: "Thoughts on AI",
       content:
-        "Consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.",
-      link: "#",
+        "AI is an amazing tool and should be utlized as a tool, not as something to replace thinking. If we lose our ability to reason and to think out the how and why. We become a much less effective version of an AI." ,
     },
     {
-      date: "Mar 15, 2025",
-      title: "Nullam Convallis Augue Justo",
+      date: "April 7, 2025",
+      title: "Technology and the future. ",
       content:
-        "Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.",
-      link: "#",
+        "Coding now is like looking into the future. I say that because when you code if you are being smart about it in most situations you should be thinking about how accescible your code is to being updated when the new tools and advances come out. If you do not then your code will eventually become reduntant.  ",
     },
-    {
-      date: "Feb 27, 2025",
-      title: "Vivamus Hendrerit Arcu Sed",
-      content:
-        "Ut in nulla enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim.",
-      link: "#",
-    },
+  
   ];
 
   return (
@@ -34,7 +26,6 @@ export default function Articles() {
           date={article.date}
           title={article.title}
           content={article.content}
-          link={article.link}
         />
       ))}
     </div>

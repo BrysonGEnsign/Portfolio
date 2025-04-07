@@ -12,7 +12,7 @@ export default function About() {
     { path: "/", label: "Home" },
     { path: "/about", label: "About" },
     { path: "/projects", label: "Projects" },
-    { path: "/contact", label: "Contact" },
+
   ];
 
   return (
@@ -27,29 +27,43 @@ export default function About() {
         {/* Left: Text */}
         <div className="text-left max-w-xl lg:mr-12">
           <h1 className="text-4xl font-bold mb-6 leading-tight">
-            I’m Jane. I live in New York City, <br /> where I develop the future.
+            I’m Bryson. I live in Utah, <br /> where I turn ideas into code. 
           </h1>
 
           <p className="text-md text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur...
+            I am a firm beleiver of doing. When you have an idea even if it is something just for fun. I find joy and accomplishment in trying to figure out how I would implement or create my idea. Most of my ideas are how I would create or implement things into games. such as how would I create an inventory system, or a gacha system and the list goes on. Basically I think that when we attempt to implement and create we learn a lot more then we could just reading in a book. 
           </p>
           <p className="text-md text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur...
+            Don't get me wrong though I love reading. Some of my favorites currently are, The Book of Mormon, Anything Brandon Sanderson and I do enjoy reading a good webnovel.  
           </p>
-          <p className="text-md text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur
-            adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur...
-          </p>
+         
 
           {/* Links for mobile only */}
-          <div className="block lg:hidden mt-6 space-y-2 text-sm text-left">
-            <p>📎 Follow me on X</p>
-            <p>💻 Follow me on Github</p>
-            <p>🔗 Follow me on LinkedIn</p>
-            <p>📧 jane@email.com</p>
-          </div>
+          {/* Links for mobile only */}
+<div className="block lg:hidden mt-6 space-y-2 text-sm text-left">
+  <p>
+    💻 <a
+      href="https://github.com/BrysonGEnsign"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-black dark:hover:text-white underline"
+    >
+      Follow me on GitHub
+    </a>
+  </p>
+  <p>
+    🔗 <a
+      href="https://www.linkedin.com/in/bryson-graves/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-black dark:hover:text-white underline"
+    >
+      Follow me on LinkedIn
+    </a>
+  </p>
+  <p>📧 Brysongraves@gmail.com</p>
+</div>
+
         </div>
 
         {/* Right: Image and Desktop Links */}
@@ -64,11 +78,28 @@ export default function About() {
 
           {/* Links for desktop only */}
           <div className="hidden lg:block space-y-2 text-sm text-left">
-            <p>📎 Follow me on X</p>
-            <p>💻 Follow me on Github</p>
-            <p>🔗 Follow me on LinkedIn</p>
-            <p>📧 jane@email.com</p>
-          </div>
+  <p>
+    💻 <a
+      href="https://github.com/BrysonGEnsign"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-black dark:hover:text-white underline"
+    >
+      Follow me on GitHub
+    </a>
+  </p>
+  <p>
+    🔗 <a
+      href="https://www.linkedin.com/in/bryson-graves/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-black dark:hover:text-white underline"
+    >
+      Follow me on LinkedIn
+    </a>
+  </p>
+  <p>📧 Brysongraves@gmail.com</p>
+</div>
         </div>
       </div>
 
