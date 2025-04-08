@@ -2,12 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "export": "next export",
+  "deploy": "NODE_ENV=production npm run build && npm run export"
+},
   "dependencies": {
     "dotenv": "^16.4.4",
     "next": "^14.2.26",
