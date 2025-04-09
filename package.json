@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "gh-deploy": "NODE_ENV=production next build && next export && gh-pages -d out",
+"gh-deploy": "NODE_ENV=production next build && gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
