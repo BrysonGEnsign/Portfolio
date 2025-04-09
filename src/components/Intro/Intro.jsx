@@ -6,7 +6,7 @@ export default function Intro() {
     <section className="mb-10">
       <div className="flex items-center mb-4">
       <Image
-  src="/profile.jpg"
+  src="/Portfolio//profile.jpg"
   alt="Profile"
   width={48}
   height={48}
