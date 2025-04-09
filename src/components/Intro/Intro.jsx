@@ -1,10 +1,17 @@
 import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import Image from 'next/image';
 
 export default function Intro() {
   return (
     <section className="mb-10">
       <div className="flex items-center mb-4">
-        <img src="/profile.jpg" alt="Profile" className="w-12 h-12 rounded-full mr-4" />
+      <Image
+  src="/profile.jpg"
+  alt="Profile"
+  width={48}
+  height={48}
+   className="rounded-full mr-4"
+/>
         <div>
           <h1 className="text-2xl font-semibold">Software engineer, brother, Game Dev, and believer</h1>
         </div>
