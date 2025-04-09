@@ -10,7 +10,9 @@ export default function Intro() {
   alt="Profile"
   width={48}
   height={48}
-   className="rounded-full mr-4"
+  className="rounded-full mr-4"
+  unoptimized
+  priority
 />
         <div>
           <h1 className="text-2xl font-semibold">Software engineer, brother, Game Dev, and believer</h1>
