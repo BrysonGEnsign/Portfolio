@@ -19,7 +19,7 @@ export default function Projects() {
 
   const projects = [
     {
-      logo: "/Portfolio//Osm.png",
+      logo: "/Portfolio/slack.png",
       name: "OpenStreetMap",
       content: "Filling out Springville",
       link: "https://www.openstreetmap.org/#map=16/40.15286/-111.58717"

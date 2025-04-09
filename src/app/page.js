@@ -34,7 +34,7 @@ export default function Home() {
     content: "Things I've done for work",
     experiences: [
       { logo: "/Portfolio/slack.png", organization: "FreeLance", jobTitle: "Free Lancee", startYear: 2018, endYear: 2025 },
-      { logo: "/Portfolio/spotify.png", organization: "Self-Empyloyed", jobTitle: "Game Dev", startYear: 2016, endYear: null },
+      { logo: "/Portfolio/slack.png", organization: "Self-Empyloyed", jobTitle: "Game Dev", startYear: 2016, endYear: null },
     ],
   };
 
