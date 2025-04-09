@@ -11,7 +11,7 @@ const ProjectCard = ({ logo, name, content, link }) => {
       <div>
         <p data-testid="projectCardContent">{content}</p>
         <a data-testid="projectCardLink" href={link} target="_blank" rel="noreferrer">
-          <img src="/link.svg" alt="" /> View Project
+          <img src="/Portfolio/link.svg" alt="" /> View Project
         </a>
       </div>
     </div>

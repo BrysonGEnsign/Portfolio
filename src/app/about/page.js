@@ -70,7 +70,7 @@ export default function About() {
         <div className="flex flex-col items-start mt-10 lg:mt-0">
           <div className="w-80 h-80 mb-4">
             <img
-              src="/profile.jpg"
+              src="/Portfolio/profile.jpg"
               alt="Profile Picture"
               className="w-full h-full object-cover shadow-md rounded-2xl"
             />

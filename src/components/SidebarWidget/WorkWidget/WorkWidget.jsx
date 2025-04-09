@@ -6,7 +6,7 @@ const WorkWidget = ({ title, content, experiences }) => {
   return (
     <section data-testid="workWidget" className="work-widget">
     <div className="work-widget-header">
-      <img src="/WorkIcon.svg" alt="Work Icon" className="work-icon"/>
+      <img src="/Portfolio/WorkIcon.svg" alt="Work Icon" className="work-icon"/>
       <h2 data-testid="workWidgetTitle">{title}</h2>
     </div>
       <p data-testid="workWidgetContent">{content}</p>

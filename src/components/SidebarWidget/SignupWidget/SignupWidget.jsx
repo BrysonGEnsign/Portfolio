@@ -39,7 +39,7 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
     <form data-testid={'signupWidget'} className={'signup-widget'} onSubmit={handleSubmit} autoComplete={'false'}>
 
       <div className="signup-widget-header">
-      <img src="/emailIcon.svg" alt="Email Icon" className="email-icon"/>
+      <img src="/Portfolio/emailIcon.svg" alt="Email Icon" className="email-icon"/>
       <h2 data-testid={'signupWidgetTitle'}>{title}</h2>
       </div>
 

@@ -46,7 +46,7 @@ const ThemeSwitcher = ({ darkClassName }) => {
             {isDarkMode ? (
               <span className="moon-icon">🌜</span>
             ) : (
-              <img src="/Sun.svg" alt="Sun Icon" className="sun-icon" />
+              <img src="/Portfolio/Sun.svg" alt="Sun Icon" className="sun-icon" />
             )}
           </div>
         </div>

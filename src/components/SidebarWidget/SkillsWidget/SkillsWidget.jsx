@@ -9,7 +9,7 @@ const SkillsWidget = ({ title, content, skills }) => {
   return (
     <section data-testid="skillsWidget" className="skills-widget">
       <div className="skills-widget-header">
-      <img src="/SkillsIcon.svg" alt="Skills Icon" className="skills-icon"/>
+      <img src="/Portfolio/SkillsIcon.svg" alt="Skills Icon" className="skills-icon"/>
       <h2 data-testid="skillsWidgetTitle">{title}</h2>
       </div>
       <p data-testid="skillsWidgetContent">{content}</p>
