@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Dropdown from "@/components/Navbar/Dropdown/Dropdown.jsx";
 import "@/components/Navbar/Navbar.css";
+import Link from "next/link";
 
 const Navbar = ({ options }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -23,13 +24,13 @@ const Navbar = ({ options }) => {
       ) : (
         <div className="navbar-bubble">
           <ul data-testid="ul" className="navbar-links">
-            {options.map((option, index) => (
-              <li key={index} data-testid={`li${index}`}>
-                <a data-testid={`a${index}`} className="link" href={option.path}>
-                  {option.label}
-                </a>
-              </li>
-            ))}
+          {options.map((option, index) => (
+  <li key={index} data-testid={`li${index}`}>
+    <Link className="link" href={option.path}>
+      {option.label}
+    </Link>
+  </li>
+))}
           </ul>
         </div>
       )}

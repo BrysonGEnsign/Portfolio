@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import "@/components/Footer/Footer.css"; // Assuming you will add relevant CSS for the footer here
+import Link from "next/link";
 
 const Footer = ({ options }) => {
   return (
@@ -7,13 +8,13 @@ const Footer = ({ options }) => {
       <div className="footer-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
         {/* Links on the left side */}
         <ul className="footer-links flex space-x-6">
-          {options.map((option, index) => (
-            <li key={index}>
-              <a href={option.path} className="footer-link">
-                {option.label}
-              </a>
-            </li>
-          ))}
+        {options.map((option, index) => (
+  <li key={index} data-testid={`li${index}`}>
+    <Link className="link" href={option.path}>
+      {option.label}
+    </Link>
+  </li>
+))}
         </ul>
 
         {/* Rights reserved text on the right side */}

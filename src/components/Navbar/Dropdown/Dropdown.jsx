@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import { FaChevronDown } from "react-icons/fa6";
 import "@/components/Navbar/Dropdown/Drowndown.css";
+import Link from "next/link";
 
 export default function Dropdown({ options }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,13 +18,13 @@ export default function Dropdown({ options }) {
       {isOpen && (
         <div className="dropdown-panel">
           <ul className="dropdown-list">
-            {options.map((option, index) => (
-              <li key={index}>
-                <a href={option.path} className="dropdown-link">
-                  {option.label}
-                </a>
-              </li>
-            ))}
+          {options.map((option, index) => (
+  <li key={index} data-testid={`li${index}`}>
+    <Link className="link" href={option.path}>
+      {option.label}
+    </Link>
+  </li>
+))}
           </ul>
         </div>
       )}
